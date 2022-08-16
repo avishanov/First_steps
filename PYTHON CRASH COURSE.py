@@ -75,3 +75,4 @@ print(f'{guests[1]} ранее приглашение остается в сил
 del guests[0]
 del guests[0]
 print(guests)
+test = 1
