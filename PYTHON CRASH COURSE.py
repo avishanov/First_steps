@@ -101,4 +101,22 @@ animals = ['dog', 'cat','rat','owl']
 for animal in animals:
     print(f'A {animal} would make a great pet')
 print('Any of these animals would make a great pet!')
-#test 1
+# practice 4.3
+print(list(range(1, 21)))
+# practice 4.4
+n = list(range(1, 1_000_001))
+print(n)
+# practice 4.5
+print(min(n), max(n), sum(n), sep='\n')
+# practice 4.6
+print(list(range(1, 21, 2)))
+# practice 4.7
+numbers = list(range(3, 31, 3))
+for number in numbers:
+    print(number)
+# practice 4.8
+for number in numbers:
+    print(number**3)
+# practice 4.9
+numbers = list(number**3 for number in range(0, 11))
+print(numbers)
