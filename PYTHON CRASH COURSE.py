@@ -75,3 +75,30 @@ print(f'{guests[1]} ранее приглашение остается в сил
 del guests[0]
 del guests[0]
 print(guests)
+# practice 3.8
+country = ['Japan', 'Canada', 'Iceland', 'Argentina', 'Poland']
+print(country)
+print(sorted(country))
+print(country)
+print(sorted(country, reverse=True))
+print(country)
+country.reverse()
+print(country)
+country.reverse()
+print(country)
+country.sort()
+print(country)
+country.sort(reverse=True)
+print(country)
+# practice 3.9
+print(len(guests))
+# practice 4.1
+pizzas = ['margarita', 'pepperoni', 'pineapple']
+for pizza in pizzas:
+    print(f'I like {pizza} pizza')
+# practice 4.1
+animals = ['dog', 'cat','rat','owl']
+for animal in animals:
+    print(f'A {animal} would make a great pet')
+print('Any of these animals would make a great pet!')
+1
