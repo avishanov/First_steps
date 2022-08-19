@@ -51,7 +51,7 @@ print(f'{guests[2]} {invitation}')
 # practice 3.6
 print('список гостей расширен на три человека')
 guests.insert(0, 'Predator')
-guests.insert(2,'Alien')
+guests.insert(2, 'Alien')
 guests.append('Terminator')
 print(guests)
 print(f'{guests[0]} {invitation}')
@@ -63,13 +63,13 @@ print(f'{guests[5]} {invitation}')
 # practice 3.7
 print('на обед приглашаются тлько два гостя')
 del_guest = guests.pop()
-print(f'{del_guest} сожалею об отмене приглашения' )
+print(f'{del_guest} сожалею об отмене приглашения')
 del_guest = guests.pop()
-print(f'{del_guest} сожалею об отмене приглашения' )
+print(f'{del_guest} сожалею об отмене приглашения')
 del_guest = guests.pop()
-print(f'{del_guest} сожалею об отмене приглашения' )
+print(f'{del_guest} сожалею об отмене приглашения')
 del_guest = guests.pop()
-print(f'{del_guest} сожалею об отмене приглашения' )
+print(f'{del_guest} сожалею об отмене приглашения')
 print(f'{guests[0]} ранее приглашение остается в силе')
 print(f'{guests[1]} ранее приглашение остается в силе')
 del guests[0]
@@ -97,7 +97,7 @@ pizzas = ['margarita', 'pepperoni', 'pineapple']
 for pizza in pizzas:
     print(f'I like {pizza} pizza')
 # practice 4.1
-animals = ['dog', 'cat','rat','owl']
+animals = ['dog', 'cat', 'rat', 'owl']
 for animal in animals:
     print(f'A {animal} would make a great pet')
 print('Any of these animals would make a great pet!')
@@ -116,9 +116,9 @@ for number in numbers:
     print(number)
 # practice 4.8
 for number in numbers:
-    print(number**3)
+    print(number ** 3)
 # practice 4.9
-numbers = list(number**3 for number in range(0, 11))
+numbers = list(number ** 3 for number in range(0, 11))
 print(numbers)
 # practice 4.10
 favorite_foods = ['pizza', 'falafel', 'carrot cake', 'cannoli', 'ice cream']
@@ -228,3 +228,13 @@ for i in numbers:
     else:
         print(f'{i}th')
 
+# practice 6.1
+
+user = {
+    'first_name': 'akhmed',
+    'last_name': 'viskhanov',
+    'age': 33,
+    'city': 'grozny'
+    }
+
+print(user['first_name'], user['last_name'], user['age'], user['city'])
