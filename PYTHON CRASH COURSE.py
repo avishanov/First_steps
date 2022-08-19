@@ -155,3 +155,4 @@ elif alien_color == 'yellow':
 elif alien_color == 'red':
     points = 15
 print(f'игрок заработал {points} очков')
+]
