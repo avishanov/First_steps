@@ -155,4 +155,76 @@ elif alien_color == 'yellow':
 elif alien_color == 'red':
     points = 15
 print(f'игрок заработал {points} очков')
-]
+
+# practice 5.6
+
+age = 13
+
+if age < 2:
+    print('младенец.')
+elif age >= 2 and age < 4:
+    print('малыш.')
+elif age >= 4 and age < 13:
+    print('ребенок.')
+elif age >= 13 and age < 20:
+    print('подросток.')
+elif age >= 20 and age < 65:
+    print('взрослый.')
+elif age >= 65:
+    print('пожилой человек.')
+
+# practice 5.7
+
+favorite_fruits = ['banana', 'apple', 'orange', 'pineapple', 'grape']
+if 'banana' in favorite_fruits:
+    print('You really like banana!')
+if 'apple' in favorite_fruits:
+    print('You really like apples')
+if 'pineapple' in favorite_fruits:
+    print('You really like pineapples')
+if 'orange' in favorite_fruits:
+    print('You really like oranges')
+if 'grape' in favorite_fruits:
+    print('You really like grapes')
+
+# practice 5.8
+
+users = ['admin', 'John', 'Mike', 'Jessy', 'Walter']
+
+for user in users:
+    if user == 'admin':
+        print(f'Hello {user}, would you like to see a status report?')
+    else:
+        print(f'Hello {user}, thank you for logging in again')
+
+# practice 5.9
+
+users = []
+
+if len(users) < 1:
+    print('We need to ind some users!')
+else:
+    print('Hi users')
+
+# practice 5.10
+
+current_users = ['Leonardo', 'Raphael', 'Donatello', 'Michelangelo', 'Splinter']
+new_users = ["April O'Neil", 'Casey Jones', 'Raphael', 'Donatello', 'Hamato Yoshi']
+
+for user in new_users:
+    if user in current_users:
+        print(f'the name {user} already taken, Choose another name')
+    else:
+        print(f'the name {user}  is free')
+
+# practice 5.11
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in numbers:
+    if i == 1:
+        print(f'{1}st')
+    elif i == 2 or i == 3:
+        print(f'{i}nd')
+    else:
+        print(f'{i}th')
+

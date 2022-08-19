@@ -1,12 +1,8 @@
-# practice 5.3
-alien_color = 'red'
-
-# practice 5.4
-if alien_color == 'green':
-    points = 5
-elif alien_color == 'yellow':
-    points = 10
-elif alien_color == 'red':
-    points = 15
-print(f'игрок заработал {points} очков')
-
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for i in numbers:
+    if i == 1:
+        print(f'{1}st')
+    elif i == 2 or i == 3:
+        print(f'{i}nd')
+    else:
+        print(f'{i}th')
