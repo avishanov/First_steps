@@ -120,4 +120,38 @@ for number in numbers:
 # practice 4.9
 numbers = list(number**3 for number in range(0, 11))
 print(numbers)
-1
+# practice 4.10
+favorite_foods = ['pizza', 'falafel', 'carrot cake', 'cannoli', 'ice cream']
+print(f'The first three items in the list are: {favorite_foods[:3]}')
+print(f'Three items from the middle of the list are : {favorite_foods[1:4]}')
+print(f'The last three items in the list are: {favorite_foods[-3:]}')
+# practice 4.11
+friend_pizzas = favorite_foods
+favorite_foods.append('margarita')
+friend_pizzas[0] = 'shurpa'
+print(favorite_foods)
+print(friend_pizzas)
+# practice 4.11
+buffet = ('samsa', 'shurpa', 'manti', 'plov', 'salat')
+for i in buffet:
+    print(i)
+buffet = ('samsa', 'shurpa', 'manti', 'to-beram', 'galnash')
+for i in buffet:
+    print(i)
+# practice 5.3
+alien_color = 'green'
+if alien_color == 'green':
+    print('Игрок заработал 5 очков')
+# practice 5.4
+if alien_color == 'green':
+    print('Игрок заработал 5 очков')
+elif alien_color != 'green':
+    print('Игрок заработал 10 очков')
+# practice 5.5
+if alien_color == 'green':
+    points = 5
+elif alien_color == 'yellow':
+    points = 10
+elif alien_color == 'red':
+    points = 15
+print(f'игрок заработал {points} очков')
